@@ -7,7 +7,7 @@ Notetaker is a simple full stack web app where the user can log in and create, v
 * How to make a simple and secure login system from scratch
 * How cookies work and how to use them
 * How JWT works and how to use it for user authorization
-* How routes and requests/responses works using NodeJS
+* How routes and requests/responses work using NodeJS
 
 # Technologies used
 * Front-end: HTML, CSS, and Javascript
