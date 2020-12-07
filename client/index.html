@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>NoteBoard</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+  <header>
+    <div class="topBar">
+      <h1 class="title"><a href="index.html">NoteBoard</a></h1>
+      <ul class="navLinks">
+        <li id = "register"><a href="register.html">Register</a></li>
+        <li id = "login"><a href="login.html">Login</a></li>
+      </ul>
+    </div>
+  </header>
+
+    <div class="notes">
+    
+    </div>
+
+    <button type="button" class="newNoteButton">New Note</button>
+    <button type ="button" class="deleteNoteButton">Delete Note</button>
+
+    <div class="modalbg">
+      <div class="newNoteModal">
+        <div class="closeModal">+</div>
+        <h1>New Note</h1>
+        <textarea class="noteInput" rows="10" cols="46" placeholder="Click to start typing your note" maxlength="314"></textarea>
+        <button class="submitNoteButton">Add Note</button>
+      </div>
+    </div>
+
+    <div class="delmodalbg">
+      <div class="deleteNoteModal">
+        <div class="delcloseModal">+</div>
+        <h1>Select Notes to Delete</h1>
+        <h3>Click on a note to select or deselect it. When you press the delete notes button, all the red notes will be deleted, and the yellow notes will not be affected.<h3>
+        <div class = "notesToDelete"></div>
+        <button class="deleteNoteButtonModal">Delete Notes</button>
+      </div>
+    </div>
+
+    <script type="module" src = "client-js/client.js"></script>
+  </body>
+
+</html>

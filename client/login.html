@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>NoteTaker</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="topBar">
+        <h1 class="title"><a href="index.html">Note Taker</a></h1>
+        <ul class="navLinks">
+          <li><a href="register.html">Register</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="loginMenu">
+
+      <div class="loginTitle">
+      <h1>Login</h1>
+      </div>
+
+      <div class="loginFormLayout">
+        <form method="post" id="loginForm">
+
+          <div class="loginFormText">
+            <label for="username">Username</label>
+          </div>
+
+          <div class="loginFormEntry">
+            <input type="text" placeholder="Enter Username" name="loginUsername" autocomplete ="off" required>
+          </div>
+
+          <div class="loginFormText">
+            <label for="password">Password</label>
+          </div>
+
+          <div class="loginFormEntry">
+            <input type="password" placeholder="Enter Password" name="loginPassword" autocomplete ="off" required>
+          </div>
+
+          <button type="submit" class="loginButton">Log In</button>
+
+          <div class="errorMessage"></div> <!--Message for if user enters invalid username or password-->
+
+        </form>
+      </div>
+
+    </div>
+
+    <script type="module" src="client-js/login.js"></script>
+    
+  </body>
+
+</html>

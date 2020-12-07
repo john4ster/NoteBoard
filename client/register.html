@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>NoteTaker</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="topBar">
+        <h1 class="title"><a href="index.html">Note Taker</a></h1>
+        <ul class="navLinks">
+          <li><a href="register.html">Register</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <div class="loginMenu">
+
+      <div class="loginTitle">
+      <h1>Register</h1>
+      </div>
+
+      <div id="registerWarning"></div>
+
+      <div class="loginFormLayout">
+        <form method="post" id="registerForm">
+
+          <div class="loginFormText">
+            <label for="username" id="newUsername">Username</label>
+          </div>
+
+          <div class="loginFormEntry">
+            <input type="text" placeholder="Create Username" name="username" autocomplete ="off" required>
+          </div>
+
+          <div class="loginFormText">
+            <label for="password" id="newPassword">Password</label>
+          </div>
+
+          <div class="loginFormEntry">
+            <input type="password" placeholder="Create Password" name="password" autocomplete ="off" required>
+          </div>
+
+          <div class="loginFormText">
+            <label for="confirmPassword">Confirm Password</label>
+          </div>
+
+          <div class="loginFormEntry">
+            <input type="password" placeholder="Confirm Password" name="confirmPassword" autocomplete ="off" required>
+          </div>
+
+          <button type="submit" class="registerButton">Register</button>
+
+        </form>
+      </div>
+
+    </div>
+
+    <script src="client-js/register.js" defer></script>
+
+  </body>
+
+</html>
