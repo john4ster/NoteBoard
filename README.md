@@ -9,7 +9,7 @@ Notetaker is a simple full stack web app where the user can log in and create, v
 * How JWT works and how to use it for user authorization
 
 # How to run
-* Change the .env.examples database to fit your MySQL database information
+* Change the .env.examples information to fit your MySQL database information
 * In the server directory, run "node app.js"
 * Go to "localhost:3000" in your browser
 
