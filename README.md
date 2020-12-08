@@ -1,5 +1,5 @@
 # NoteBoard
-Notetaker is a simple full stack web app where the user can log in and create, view, save, and delete notes.
+NoteBoard is a simple full stack web app where the user can log in and create, view, save, and delete notes.
 
 # What I learned
 * How to make a fullstack web application with a front end, back end, and database
