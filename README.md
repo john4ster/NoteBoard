@@ -1,8 +1,6 @@
 # NoteBoard
 NoteBoard is a simple full stack web app where the user can log in and create, view, save, and delete notes.
 
-![example](https://user-images.githubusercontent.com/54284594/102422350-8f9d4f00-3fd4-11eb-9bfd-bf5ba7447c8e.gif)
-
 # What I learned
 * How to make a fullstack web application with a front end, back end, and database
 * How to use a MySQL database to store users and user data
