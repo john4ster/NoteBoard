@@ -18,7 +18,7 @@ NoteBoard is a simple full stack web app where the user can log in and create, v
 # Database Setup
 * The database needs two tables, a user table and a notes table
 * The user table has a username column, an encrypted password column, and a userID column
-* The notes table has a notes column, and a userID column
+* The notes table has a note column, and a userID column
 * The userID is what connects the user to that user's notes
 
 # Technologies used
